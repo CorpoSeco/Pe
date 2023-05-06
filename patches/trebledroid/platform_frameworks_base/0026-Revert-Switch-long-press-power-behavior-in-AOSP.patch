@@ -12,16 +12,16 @@ diff --git a/core/res/res/values/config.xml b/core/res/res/values/config.xml
 index 11629cb91b00..8f3cd2822d4f 100644
 --- a/core/res/res/values/config.xml
 +++ b/core/res/res/values/config.xml
-@@ -1028,7 +1028,7 @@
-             4 - Go to voice assist
+@@ -1031,7 +1031,7 @@
              5 - Go to assistant (Settings.Secure.ASSISTANT)
+             6 - Toggle torch on / off (if screen is off)
      -->
 -    <integer name="config_longPressOnPowerBehavior">5</integer>
 +    <integer name="config_longPressOnPowerBehavior">1</integer>
  
      <!-- The time in milliseconds after which a press on power button is considered "long". -->
      <integer name="config_longPressOnPowerDurationMs">500</integer>
-@@ -1060,7 +1060,7 @@
+@@ -1063,7 +1063,7 @@
              1 - Mute toggle
              2 - Global actions menu
      -->
@@ -31,5 +31,5 @@ index 11629cb91b00..8f3cd2822d4f 100644
      <!-- Allows activities to be launched on a long press on power during device setup. -->
      <bool name="config_allowStartActivityForLongPressOnPowerInSetup">false</bool>
 -- 
-2.25.1
+2.34.1
 

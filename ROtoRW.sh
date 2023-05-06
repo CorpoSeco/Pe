@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pkg install android-tools
-pkg install e2fsprogs
+#pkg install android-tools
+#pkg install e2fsprogs
 
 set -e
 

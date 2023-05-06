@@ -14,10 +14,10 @@ diff --git a/services/core/Android.bp b/services/core/Android.bp
 index 89c8ca567dd9..34a4579855ef 100644
 --- a/services/core/Android.bp
 +++ b/services/core/Android.bp
-@@ -173,6 +173,7 @@ java_library_static {
-         "SurfaceFlingerProperties",
-         "com.android.sysprop.watchdog",
-         "faceunlock_framework",
+@@ -181,6 +181,7 @@ java_library_static {
+         "kotlin-stdlib",
+         "kotlinx_coroutines_android",
+         "kotlinx_coroutines",
 +        "vendor.samsung.hardware.sysinput-V1.2-java", // HIDL
      ],
      javac_shard_size: 50,
